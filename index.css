@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color:  #325288;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.question,h2{
+    background-color: #D96098;
+    padding:2rem 1rem;
+}
+.answers{
+    padding: 1rem;
+    background-color: #FAEEE7;
+    padding: 1rem 0;
+}
+ul li{
+list-style: none;
+padding: 1rem;
+}
+button{
+    border: none;
+    padding: 1rem;
+    background-color: #24A19C;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
